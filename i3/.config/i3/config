@@ -28,10 +28,10 @@ font pango: Noto Sans Regular 10
 # set the mod key to the winkey:
 set $mod Mod4
 
-# pywal
+# pywal (aplica fondo de pantalla + colorscheme)
 exec_always wal -i /home/paranoia/Imágenes/fwmc3.jpg
 
-# flameshot
+# flameshot (abrir automáticamente programa de screenshots)
 exec --no-startup-id flameshot
 
 #xdg
@@ -552,9 +552,9 @@ strip_workspace_numbers yes
             background         $bg
             statusline         $black
 #                           border              bg          txt         indicator
-        focused_workspace   $bg               $bg      $txt     $purple
-        active_workspace    $bg              $bg      $txt     $purple
-        inactive_workspace  $bg               $bg      $txt      $purple
+        focused_workspace   $bg                 $bg         $txt        $purple
+        active_workspace    $bg                 $bg         $txt        $purple
+        inactive_workspace  $bg                 $bg         $txt        $purple
         urgent_workspace    $urgentred          $urgentred  $white      $purple
     }
 }
